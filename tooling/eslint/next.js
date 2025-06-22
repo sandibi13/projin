@@ -7,12 +7,8 @@ import globals from "globals";
 import pluginNext from "@next/eslint-plugin-next";
 import { config as baseConfig } from "./base.js";
 
-/**
- * A custom ESLint configuration for libraries that use Next.js.
- *
- * @type {import("eslint").Linter.Config[]}
- * */
-export const nextJsConfig = [
+/** @type {import("eslint").Linter.Config} */
+const config = [
   ...baseConfig,
   js.configs.recommended,
   eslintConfigPrettier,
@@ -47,3 +43,5 @@ export const nextJsConfig = [
     },
   },
 ];
+
+export default config;

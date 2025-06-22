@@ -1,0 +1,3 @@
+{
+  "extends": "@projin/typescript-config/base.json"
+}

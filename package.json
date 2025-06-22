@@ -1,20 +1,22 @@
 {
   "name": "projin",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "lint": "turbo run lint"
   },
   "devDependencies": {
-    "prettier": "^3.5.3",
-    "turbo": "^2.5.4",
-    "typescript": "5.8.2"
+    "@projin/eslint-config": "workspace:*",
+    "@projin/typescript-config": "workspace:*",
+    "eslint": "catalog:",
+    "turbo": "2.5.4",
+    "typescript": "catalog:"
   },
-  "packageManager": "pnpm@9.0.0",
+  "packageManager": "pnpm@10.12.1",
   "engines": {
-    "node": ">=18"
+    "node": "22.14.0",
+    "pnpm": "10.12.1"
   }
 }
