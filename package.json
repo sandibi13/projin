@@ -2,21 +2,24 @@
   "name": "projin",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.12.1",
+  "engines": {
+    "node": "22.14.0",
+    "pnpm": "10.12.1"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint"
   },
+  "prettier": "@projin/prettier-config",
   "devDependencies": {
     "@projin/eslint-config": "workspace:*",
+    "@projin/prettier-config": "workspace:*",
     "@projin/typescript-config": "workspace:*",
     "eslint": "catalog:",
+    "prettier": "catalog:",
     "turbo": "2.5.4",
     "typescript": "catalog:"
-  },
-  "packageManager": "pnpm@10.12.1",
-  "engines": {
-    "node": "22.14.0",
-    "pnpm": "10.12.1"
   }
 }

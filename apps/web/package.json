@@ -16,11 +16,15 @@
   },
   "devDependencies": {
     "@projin/eslint-config": "workspace:*",
+    "@projin/tailwind-config": "workspace:*",
     "@projin/typescript-config": "workspace:*",
     "@types/node": "24.0.3",
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",
+    "autoprefixer": "10.4.21",
     "eslint": "catalog:",
+    "postcss": "8.5.6",
+    "tailwindcss": "catalog:",
     "typescript": "catalog:"
   }
 }

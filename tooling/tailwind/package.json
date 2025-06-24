@@ -1,0 +1,12 @@
+{
+  "name": "@projin/tailwind-config",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./next": "./next.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "catalog:"
+  }
+}

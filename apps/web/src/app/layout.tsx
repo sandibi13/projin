@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../styles/globals.css";
 
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Projin",
   description:
     "Open-source and AI-native project manager, reimagined for speed and clarity",
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
 const geist = Geist({
