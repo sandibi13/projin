@@ -37,9 +37,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
-# turbo
-.turbo/
-
 # editor
 .idea/
 .vscode/
+
+# turbo
+.turbo/
