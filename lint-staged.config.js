@@ -1,6 +1,6 @@
 /** @type {import("lint-staged").Config} */
 const config = {
-  "*": ["pnpm lint", "pnpm format"],
+  "*.{js,ts,tsx,jsx,json,md,mdx,yml}": ["prettier --write", "eslint --fix"],
 };
 
 export default config;

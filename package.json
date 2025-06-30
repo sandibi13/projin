@@ -12,7 +12,8 @@
     "dev": "turbo run dev",
     "format": "turbo run format",
     "lint": "turbo run lint",
-    "typecheck": "turbo run typecheck"
+    "typecheck": "turbo run typecheck",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@projin/eslint-config": "workspace:*",
