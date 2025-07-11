@@ -10,8 +10,9 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "format": "turbo run format",
     "lint": "turbo run lint",
+    "format": "prettier --check \"**/*.{ts,tsx,js,jsx,md,mdx}\"",
+    "format:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx}\"",
     "typecheck": "turbo run typecheck",
     "prepare": "husky"
   },

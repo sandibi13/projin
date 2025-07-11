@@ -1,6 +1,6 @@
 /** @type {import("lint-staged").Config} */
 const config = {
-  "*.{js,ts,tsx,jsx,json,md,mdx,yml}": ["prettier --write", "eslint --fix"],
+  "*.{js,jsx,ts,tsx,md,mdx,json,yml}": ["eslint --fix", "prettier --write"],
 };
 
 export default config;
