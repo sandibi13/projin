@@ -23,11 +23,12 @@
     "@projin/eslint-config": "workspace:*",
     "@projin/typescript-config": "workspace:*",
     "@projin/ui": "workspace:*",
+    "@tailwindcss/postcss": "4.1.11",
     "@types/node": "24.0.3",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
     "eslint": "catalog:",
-    "postcss": "catalog:",
+    "postcss": "8.5.6",
     "tailwindcss": "catalog:",
     "typescript": "catalog:"
   }
